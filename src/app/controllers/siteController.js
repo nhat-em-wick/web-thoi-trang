@@ -3,15 +3,19 @@ class SiteController {
 
     // [GET] /
      index(req, res, next){
-        res.render('index')
+        res.render('front/index')
     }
     
     contact(req, res){
-      res.render('contact')
+      res.render('front/contact')
     }
 
     about(req, res){
-      res.render('about')
+      res.render('front/about')
+    }
+
+    admin(req, res){
+      res.render('back/index')
     }
   
 }

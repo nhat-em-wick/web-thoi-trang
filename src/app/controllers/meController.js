@@ -2,10 +2,10 @@
 class MeController{
 
   wishlist(req, res){
-    res.render('me/wishlist')
+    res.render('front/me/wishlist')
   }
   compare(req, res){
-    res.render('me/compare')
+    res.render('front/me/compare')
   }
 }
 

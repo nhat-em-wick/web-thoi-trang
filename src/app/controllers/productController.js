@@ -1,7 +1,11 @@
 
 class ProductController{
   index(req, res){
-    res.render('products')
+    res.render('front/products')
+  }
+
+  detail(req, res){
+    res.render('front/products/detail')
   }
 }
 

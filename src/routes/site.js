@@ -2,6 +2,8 @@ const express = require('express');
 const router = express.Router();
 const siteController = require('../app/controllers/siteController')
 
+router.get('/admin', siteController.admin)
+
 router.get('/contact', siteController.contact)
 
 router.get('/about', siteController.about)

@@ -3,7 +3,7 @@
 class CartController{
 
   index(req, res){
-    res.render('cart')
+    res.render('front/cart')
   }
 
 }

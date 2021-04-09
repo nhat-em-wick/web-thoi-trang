@@ -41,7 +41,7 @@ class AuthController{
 
   // [GET] /auth
   index(req, res){
-    res.render('auth')
+    res.render('front/auth')
   }
 
   //  [POST] /auth/login
